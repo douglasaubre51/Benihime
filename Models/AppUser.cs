@@ -6,6 +6,9 @@ namespace Benihime.Models
     {
         [Key]
         public string Id { get; set; }
+        public string? UserName { get; set; }
+        public string? Email { get; set; }
+        public bool EmailConfirmed { get; set; }
         public Address? Address { get; set; }
         public int? Pace { get; set; }
         public int? Mileage { get; set; }
