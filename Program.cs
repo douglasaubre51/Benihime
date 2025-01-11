@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 //added by me
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
-   options.UseSqlServer(builder.Configuration.GetConnectionString("RukiaDataString"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("RukiaDbString"));
 }
 );
 

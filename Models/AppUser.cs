@@ -1,7 +1,11 @@
-﻿namespace Benihime.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Benihime.Models
 {
     public class AppUser
     {
+        [Key]
+        public string Id { get; set; }
         public Address? Address { get; set; }
         public int? Pace { get; set; }
         public int? Mileage { get; set; }
