@@ -1,4 +1,5 @@
 using Benihime.Data;
+using Benihime.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Benihime.Controllers
@@ -13,7 +14,7 @@ namespace Benihime.Controllers
         }
         public ActionResult Index()
         {
-            var clubs = _context.Clubs.ToList();
+            List<Club> clubs = _context.Clubs.ToList();
             return View(clubs);
         }
 
