@@ -1,5 +1,14 @@
-﻿@{
-    ViewBag.Title = "Index";
+﻿@model IEnumerable<Club>
+@{
+    ViewBag.Title = "Club";
 }
 
-<h1>i am back</h1>
+<h1>Club</h1>
+
+@foreach (var item in Model)
+{
+    @item.Title
+    <br>
+    @item.Address
+    <br>
+}
