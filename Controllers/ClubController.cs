@@ -1,6 +1,7 @@
 using Benihime.Data;
 using Benihime.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Benihime.Controllers
 {
@@ -18,5 +19,11 @@ namespace Benihime.Controllers
             return View(clubs);
         }
 
+        public ActionResult Details(int id)
+        {
+            Club club = _context.Clubs.Include(a => a.Address).FirstOrDefault(c => c.Id == id);
+
+            return View(club);
+        }
     }
 }

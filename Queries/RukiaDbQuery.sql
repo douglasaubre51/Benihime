@@ -1,11 +1,20 @@
 create database Rukia;
 
-select * from sys.tables;
+select *
+from sys.tables;
 
-select * from AppUser;
+select *
+from AppUser;
 
-select * from Addresses;
+select *
+from Addresses;
 
-select * from Clubs;
+select *
+from Clubs;
 
-select * from Races;
+select *
+from Races;
+
+insert into Races
+
+
