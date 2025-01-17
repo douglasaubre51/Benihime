@@ -15,7 +15,7 @@ namespace Benihime.Controllers
         }
         public ActionResult Index()
         {
-            List<Club> clubs = _context.Clubs.ToList();
+            List<Club> clubs = _context.Clubs.Include(e => e.Address).ToList();
             return View(clubs);
         }
 

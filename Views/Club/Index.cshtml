@@ -1,14 +1,30 @@
 ﻿@model IEnumerable<Club>
+
 @{
     ViewBag.Title = "Club";
 }
 
-<h1>Club</h1>
+<link rel="stylesheet" href="~/css/club.css" />
 
-@foreach (var item in Model)
-{
-    @item.Title
-    <br>
-    @item.Address
-    <br>
-}
+<div class="club-container">
+
+    <h1 class="heading-h1">Club</h1>
+
+    <div class="cards-container">
+        @foreach (var item in Model)
+        {
+            <div class="card">
+
+                <img class="image" src="@item.Image" alt=" image of club">
+                <h2>@item.Title</h2>
+                <h3>@item.ClubCategory</h3>
+                @item.Address.Street
+                @item.Address.City
+                @item.Address.State
+                <span>@item.Description</span>
+
+            </div>
+        }
+    </div>
+
+</div>
