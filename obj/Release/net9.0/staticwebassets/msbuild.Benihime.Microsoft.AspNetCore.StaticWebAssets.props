@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n0tvmjrbw0</Fingerprint>
-      <Integrity>Wemn2W3GeWfE1EsVbx1CJqkYy6oP3peCx/pOOaHuZoQ=</Integrity>
+      <Fingerprint>nklxwxe49d</Fingerprint>
+      <Integrity>dw+UapkP+zF84Wb91lv9Fgcuk6NcHQIhyKmAhBOfmCI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\club.css'))</OriginalItemSpec>
