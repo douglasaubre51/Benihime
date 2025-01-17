@@ -1,0 +1,28 @@
+.race-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    border-radius: 13px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-details {}
+
+.image {
+    width: 200px;
+    height: 150px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
