@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y1hfiWkbEZagagA0Djc9UbIDDrctAf6dzWVGENri1s0=",
+  "Hash": "HW+Jpdc6iVn/1yu2S1xL/lHGE7KGOZ4PSyrCQUFv7yU=",
   "Source": "Benihime",
   "BasePath": "_content/Benihime",
   "Mode": "Default",
@@ -1046,12 +1046,12 @@
       "OriginalItemSpec": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-zb7hf32z48.gz",
+      "Identity": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-g41ci6shst.gz",
       "SourceId": "Benihime",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/Benihime",
-      "RelativePath": "css/clubDetails#[.{fingerprint=zb7hf32z48}]?.css.gz",
+      "RelativePath": "css/clubDetails#[.{fingerprint=g41ci6shst}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\css\\clubDetails.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "khuv9iinlr",
-      "Integrity": "6EIboqBlsQCO6K4UzKRsLt90pim/ffCITfC3UrkvNIg=",
+      "Fingerprint": "saaghnrwic",
+      "Integrity": "3EqLUUJFG3OFOQI0uNEH24YHdhvqo0qQhG6U4yHTMaw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\css\\clubDetails.css"
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zb7hf32z48",
-      "Integrity": "X3px/pSXmwUwDEXaDUxMHZmNfImT+CWt18WGqoPtTek=",
+      "Fingerprint": "g41ci6shst",
+      "Integrity": "sLp96mBGU1Ivkl5QnUfws5jqvnClCIY/6EtPSuMgqHw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\clubDetails.css"
@@ -3707,12 +3707,12 @@
     },
     {
       "Route": "css/clubDetails.css",
-      "AssetFile": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-zb7hf32z48.gz",
+      "AssetFile": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-g41ci6shst.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004950495050"
+          "Quality": "0.004694835681"
         }
       ],
       "ResponseHeaders": [
@@ -3722,15 +3722,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "201"
+          "Value": "212"
         },
         {
           "Name": "ETag",
-          "Value": "\"6EIboqBlsQCO6K4UzKRsLt90pim/ffCITfC3UrkvNIg=\""
+          "Value": "\"3EqLUUJFG3OFOQI0uNEH24YHdhvqo0qQhG6U4yHTMaw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 15:17:30 GMT"
+          "Value": "Fri, 17 Jan 2025 15:20:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3750,13 +3750,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X3px/pSXmwUwDEXaDUxMHZmNfImT+CWt18WGqoPtTek=\""
+          "Value": "W/\"sLp96mBGU1Ivkl5QnUfws5jqvnClCIY/6EtPSuMgqHw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X3px/pSXmwUwDEXaDUxMHZmNfImT+CWt18WGqoPtTek="
+          "Value": "sha256-sLp96mBGU1Ivkl5QnUfws5jqvnClCIY/6EtPSuMgqHw="
         }
       ]
     },
@@ -3771,7 +3771,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "438"
+          "Value": "460"
         },
         {
           "Name": "Content-Type",
@@ -3779,11 +3779,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X3px/pSXmwUwDEXaDUxMHZmNfImT+CWt18WGqoPtTek=\""
+          "Value": "\"sLp96mBGU1Ivkl5QnUfws5jqvnClCIY/6EtPSuMgqHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 15:17:30 GMT"
+          "Value": "Fri, 17 Jan 2025 15:20:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3793,13 +3793,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X3px/pSXmwUwDEXaDUxMHZmNfImT+CWt18WGqoPtTek="
+          "Value": "sha256-sLp96mBGU1Ivkl5QnUfws5jqvnClCIY/6EtPSuMgqHw="
         }
       ]
     },
     {
       "Route": "css/clubDetails.css.gz",
-      "AssetFile": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-zb7hf32z48.gz",
+      "AssetFile": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-g41ci6shst.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3808,7 +3808,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "201"
+          "Value": "212"
         },
         {
           "Name": "Content-Type",
@@ -3816,11 +3816,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6EIboqBlsQCO6K4UzKRsLt90pim/ffCITfC3UrkvNIg=\""
+          "Value": "\"3EqLUUJFG3OFOQI0uNEH24YHdhvqo0qQhG6U4yHTMaw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 15:17:30 GMT"
+          "Value": "Fri, 17 Jan 2025 15:20:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3838,18 +3838,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6EIboqBlsQCO6K4UzKRsLt90pim/ffCITfC3UrkvNIg="
+          "Value": "sha256-3EqLUUJFG3OFOQI0uNEH24YHdhvqo0qQhG6U4yHTMaw="
         }
       ]
     },
     {
-      "Route": "css/clubDetails.zb7hf32z48.css",
-      "AssetFile": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-zb7hf32z48.gz",
+      "Route": "css/clubDetails.g41ci6shst.css",
+      "AssetFile": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-g41ci6shst.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004950495050"
+          "Quality": "0.004694835681"
         }
       ],
       "ResponseHeaders": [
@@ -3859,15 +3859,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "201"
+          "Value": "212"
         },
         {
           "Name": "ETag",
-          "Value": "\"6EIboqBlsQCO6K4UzKRsLt90pim/ffCITfC3UrkvNIg=\""
+          "Value": "\"3EqLUUJFG3OFOQI0uNEH24YHdhvqo0qQhG6U4yHTMaw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 15:17:30 GMT"
+          "Value": "Fri, 17 Jan 2025 15:20:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3887,13 +3887,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X3px/pSXmwUwDEXaDUxMHZmNfImT+CWt18WGqoPtTek=\""
+          "Value": "W/\"sLp96mBGU1Ivkl5QnUfws5jqvnClCIY/6EtPSuMgqHw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zb7hf32z48"
+          "Value": "g41ci6shst"
         },
         {
           "Name": "label",
@@ -3901,12 +3901,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X3px/pSXmwUwDEXaDUxMHZmNfImT+CWt18WGqoPtTek="
+          "Value": "sha256-sLp96mBGU1Ivkl5QnUfws5jqvnClCIY/6EtPSuMgqHw="
         }
       ]
     },
     {
-      "Route": "css/clubDetails.zb7hf32z48.css",
+      "Route": "css/clubDetails.g41ci6shst.css",
       "AssetFile": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\css\\clubDetails.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3916,7 +3916,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "438"
+          "Value": "460"
         },
         {
           "Name": "Content-Type",
@@ -3924,11 +3924,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X3px/pSXmwUwDEXaDUxMHZmNfImT+CWt18WGqoPtTek=\""
+          "Value": "\"sLp96mBGU1Ivkl5QnUfws5jqvnClCIY/6EtPSuMgqHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 15:17:30 GMT"
+          "Value": "Fri, 17 Jan 2025 15:20:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3938,7 +3938,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zb7hf32z48"
+          "Value": "g41ci6shst"
         },
         {
           "Name": "label",
@@ -3946,13 +3946,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X3px/pSXmwUwDEXaDUxMHZmNfImT+CWt18WGqoPtTek="
+          "Value": "sha256-sLp96mBGU1Ivkl5QnUfws5jqvnClCIY/6EtPSuMgqHw="
         }
       ]
     },
     {
-      "Route": "css/clubDetails.zb7hf32z48.css.gz",
-      "AssetFile": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-zb7hf32z48.gz",
+      "Route": "css/clubDetails.g41ci6shst.css.gz",
+      "AssetFile": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\obj\\Release\\net9.0\\compressed\\r4qzgsykkz-g41ci6shst.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3961,7 +3961,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "201"
+          "Value": "212"
         },
         {
           "Name": "Content-Type",
@@ -3969,11 +3969,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6EIboqBlsQCO6K4UzKRsLt90pim/ffCITfC3UrkvNIg=\""
+          "Value": "\"3EqLUUJFG3OFOQI0uNEH24YHdhvqo0qQhG6U4yHTMaw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 15:17:30 GMT"
+          "Value": "Fri, 17 Jan 2025 15:20:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3991,7 +3991,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zb7hf32z48"
+          "Value": "g41ci6shst"
         },
         {
           "Name": "label",
@@ -3999,7 +3999,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6EIboqBlsQCO6K4UzKRsLt90pim/ffCITfC3UrkvNIg="
+          "Value": "sha256-3EqLUUJFG3OFOQI0uNEH24YHdhvqo0qQhG6U4yHTMaw="
         }
       ]
     },
