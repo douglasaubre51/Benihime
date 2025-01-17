@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Benihime.spqys7ow62.bundle.scp.css"
     },
     {
+      "Id": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\css\\club.css",
+      "PackagePath": "staticwebassets\\css\\club.css"
+    },
+    {
       "Id": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

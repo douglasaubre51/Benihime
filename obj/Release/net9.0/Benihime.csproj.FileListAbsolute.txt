@@ -140,7 +140,6 @@ e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.
 e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\scopedcss\bundle\Benihime.styles.css
 e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\scopedcss\projectbundle\Benihime.bundle.scp.css
-e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\compressed\2ipcht5hlu-b9sayid5wm.gz
 e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\compressed\pdwnjjk5w7-61n19gt1b8.gz
 e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\compressed\adkn92d833-xtxxf3hu2r.gz
 e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\compressed\qr7x8tjron-t1cqhe9u97.gz
@@ -219,3 +218,5 @@ e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.
 e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\Benihime.pdb
 e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\Benihime.genruntimeconfig.cache
 e:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\ref\Benihime.dll
+E:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\compressed\ya49gd344x-n0tvmjrbw0.gz
+E:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Release\net9.0\compressed\2ipcht5hlu-j2c96po7m8.gz
