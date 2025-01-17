@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Benihime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a66fe586b3e94818e0d779e484d5f1f8de8a7f0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e881cfb7f7ee001406aac441e0d74c79e0556fc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Benihime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Benihime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

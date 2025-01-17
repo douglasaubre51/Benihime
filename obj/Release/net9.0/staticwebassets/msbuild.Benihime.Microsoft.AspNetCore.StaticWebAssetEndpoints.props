@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"spqys7ow62"},{"Name":"integrity","Value":"sha256-wFPADts6GDkmVkiEGZQN5PF7lNXK1XJKvEqk85dkI08="},{"Name":"label","Value":"_content/Benihime/Benihime.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wFPADts6GDkmVkiEGZQN5PF7lNXK1XJKvEqk85dkI08=\u0022"},{"Name":"Last-Modified","Value":"Mon, 13 Jan 2025 11:50:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Benihime/css/club.2o8c5gu4wi.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\club.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2o8c5gu4wi"},{"Name":"integrity","Value":"sha256-4vtX/SToz3sq\u002BvC8Eecj4rIFBUWuvZvWjzmk1GVTiPY="},{"Name":"label","Value":"_content/Benihime/css/club.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"712"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224vtX/SToz3sq\u002BvC8Eecj4rIFBUWuvZvWjzmk1GVTiPY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 14:28:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Benihime/css/club.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\club.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dw\u002BUapkP\u002BzF84Wb91lv9Fgcuk6NcHQIhyKmAhBOfmCI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"690"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dw\u002BUapkP\u002BzF84Wb91lv9Fgcuk6NcHQIhyKmAhBOfmCI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 14:21:53 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Benihime/css/club.nklxwxe49d.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\club.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nklxwxe49d"},{"Name":"integrity","Value":"sha256-dw\u002BUapkP\u002BzF84Wb91lv9Fgcuk6NcHQIhyKmAhBOfmCI="},{"Name":"label","Value":"_content/Benihime/css/club.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"690"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dw\u002BUapkP\u002BzF84Wb91lv9Fgcuk6NcHQIhyKmAhBOfmCI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 14:21:53 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4vtX/SToz3sq\u002BvC8Eecj4rIFBUWuvZvWjzmk1GVTiPY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"712"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224vtX/SToz3sq\u002BvC8Eecj4rIFBUWuvZvWjzmk1GVTiPY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 14:28:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Benihime/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
