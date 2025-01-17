@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\club.css"
     },
     {
+      "Id": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\css\\clubDetails.css",
+      "PackagePath": "staticwebassets\\css\\clubDetails.css"
+    },
+    {
       "Id": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

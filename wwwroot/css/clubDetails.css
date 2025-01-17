@@ -1,0 +1,30 @@
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.details {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.image-container {}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img {
+    border-radius: 13px;
+}

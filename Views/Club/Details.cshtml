@@ -1,3 +1,23 @@
 ﻿@model Benihime.Models.Club
 
-<h3>@Model.Address.City</h3>
+<link rel="stylesheet" href="~/css/clubDetails.css" />
+
+<div class="details-container">
+
+    <h1>Club</h1>
+
+    <div class="details">
+
+        <div class="image-container">
+            <img src="@Model.Image" />
+        </div>
+
+        <div class="text-container">
+            <h4>name: @Model.Title</h4>
+            <h4>Description: @Model.Description</h4>
+            <h4>Address: @Model.Address.State,@Model.Address.City,@Model.Address.Street</h4>
+            <h4>category: @Model.ClubCategory</h4>
+
+        </div>
+    </div>
+</div>
