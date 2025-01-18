@@ -1,10 +1,14 @@
 using Benihime.Data;
+using Benihime.Interfaces;
+using Benihime.Models;
+using Benihime.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 //added by me
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
@@ -12,11 +16,16 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 }
 );
 
+builder.Services.AddScoped<IClubRepository, ClubRepository>();
+builder.Services.AddScoped<IRaceRepository, RaceRepository>();
+
 var app = builder.Build();
+
 
 //added by me
 if (args.Length == 1 && args[0].ToLower() == "seeddata")
     Seed.SeedData(app);
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
