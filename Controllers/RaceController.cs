@@ -1,4 +1,5 @@
 using Benihime.Data;
+using Benihime.Interfaces;
 using Benihime.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,24 +9,22 @@ namespace Benihime.Controllers
     public class RaceController : Controller
     {
         private readonly ApplicationDBContext _context;
-        public RaceController(ApplicationDBContext context)
+        private readonly IRaceRepository _repository;
+        public RaceController(ApplicationDBContext context, IRaceRepository repository)
         {
             _context = context;
+            _repository = repository;
         }
         // GET: RaceController
-        public ActionResult Index()
+        public async Task<ActionResult> Index()
         {
-            List<Race> races = _context.Races.Include(e => e.Address).ToList();
-
+            IEnumerable<Race> races = await _repository.GetAll();
             return View(races);
         }
-
-        public ActionResult Details(int Id)
+        public async Task<ActionResult> Details(int Id)
         {
-            Race race = _context.Races.Include(a => a.Address).FirstOrDefault(a => a.Id == Id);
-
+            Race race = await _repository.GetByIdAsync(Id);
             return View(race);
         }
-
     }
 }

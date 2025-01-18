@@ -1,4 +1,5 @@
 using Benihime.Data;
+using Benihime.Interfaces;
 using Benihime.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,20 +10,20 @@ namespace Benihime.Controllers
     {
         // GET: ClubController
         private readonly ApplicationDBContext _context;
-        public ClubController(ApplicationDBContext context)
+        private readonly IClubRepository _repository;
+        public ClubController(ApplicationDBContext context, IClubRepository repository)
         {
             _context = context;
+            _repository = repository;
         }
-        public ActionResult Index()
+        public async Task<ActionResult> Index()
         {
-            List<Club> clubs = _context.Clubs.Include(e => e.Address).ToList();
+            IEnumerable<Club> clubs = await _repository.GetAll();
             return View(clubs);
         }
-
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(int id)
         {
-            Club club = _context.Clubs.Include(a => a.Address).FirstOrDefault(c => c.Id == id);
-
+            Club club = await _repository.GetByIdAsync(id);
             return View(club);
         }
     }
