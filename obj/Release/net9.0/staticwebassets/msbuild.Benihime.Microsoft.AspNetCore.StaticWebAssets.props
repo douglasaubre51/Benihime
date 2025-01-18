@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2k0rdngib0</Fingerprint>
-      <Integrity>kqRR8h6vRmkDs8rdIY9T8D9m3qLANbP95aHzXeqFr4M=</Integrity>
+      <Fingerprint>2idsy2xg6v</Fingerprint>
+      <Integrity>phJIvVHEWqGFimgaNFs4tCYhoh9PywIqef5q/Yy3PKM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\race.css'))</OriginalItemSpec>
