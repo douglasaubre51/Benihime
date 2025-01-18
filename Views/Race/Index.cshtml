@@ -1,4 +1,28 @@
-﻿@{
+﻿@model IEnumerable<Race>
+
+@{
     ViewBag.Title = "Race";
 }
-<h1>Race</h1>
+
+<link rel="stylesheet" href="~/css/race.css" />
+
+<div class="race-container">
+    <h1>Race</h1>
+
+    <div class="card-container">
+        @foreach (Race item in @Model)
+        {
+            <div class="card">
+                <img class="image" src="@item.Image" />
+
+                <div class="card-details">
+                    <a type="button" asp-action="Details" asp-controller="Race" asp-route-id="@item.Id">
+                        <h3>@item.Title</h3>
+                        <h5>@item.RaceCategory</h5>
+                        <span>@item.Description</span>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

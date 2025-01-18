@@ -15,7 +15,9 @@ namespace Benihime.Controllers
         // GET: RaceController
         public ActionResult Index()
         {
-            return View();
+            List<Race> races = _context.Races.Include(e => e.Address).ToList();
+
+            return View(races);
         }
 
         public ActionResult Details(int Id)

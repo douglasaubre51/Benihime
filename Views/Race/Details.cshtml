@@ -1,4 +1,20 @@
 ﻿@model Benihime.Models.Race
 
-@Model.Address.State
-@Model.Address.City
+<link rel="stylesheet" href="~/css/raceDetails.css" />
+
+<div class="details-container">
+    <h1>Race</h1>
+
+    <div class="card">
+        <img class="image" src="@Model.Image" />
+
+        <div class="card-details">
+            <h3>Category: @Model.RaceCategory</h3>
+            <h3>Location: @Model.Address.State,@Model.Address.City,@Model.Address.Street</h3>
+            <h3>Description: @Model.Description</h3>
+            <h3>Entry Fee: @Model.EntryFee</h3>
+            <h3>Start Time: @Model.StartTime</h3>
+        </div>
+    </div>
+
+</div>
