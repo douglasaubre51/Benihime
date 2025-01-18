@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\race.css"
     },
     {
+      "Id": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\css\\raceDetails.css",
+      "PackagePath": "staticwebassets\\css\\raceDetails.css"
+    },
+    {
       "Id": "E:\\WORKSPACE\\Projects\\dotnet in VS Code\\Benihime Repo\\Benihime\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
