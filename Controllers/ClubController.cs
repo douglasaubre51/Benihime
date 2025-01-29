@@ -26,5 +26,21 @@ namespace Benihime.Controllers
             Club club = await _repository.GetByIdAsync(id);
             return View(club);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Create(Club club)
+        {
+            if (ModelState.IsValid)
+            {
+                _repository.Add(club);
+                return RedirectToAction("Index");
+            }
+
+            return View(club);
+        }
     }
 }

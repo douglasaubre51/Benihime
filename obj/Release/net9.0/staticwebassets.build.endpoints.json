@@ -599,6 +599,304 @@
       ]
     },
     {
+      "Route": "css/clubCreate.72pdu2giyj.css",
+      "AssetFile": "css/clubCreate.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006250000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gzFljsMuM9xq+p5B+8m7Be9bcQkStAGeSQ03ggJhYqI=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4ZmAq768cCG0OLXpck9T5Ef/pDzsW1fiobYBQnFImAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 16:01:38 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "72pdu2giyj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ZmAq768cCG0OLXpck9T5Ef/pDzsW1fiobYBQnFImAo="
+        },
+        {
+          "Name": "label",
+          "Value": "css/clubCreate.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/clubCreate.72pdu2giyj.css",
+      "AssetFile": "css/clubCreate.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ZmAq768cCG0OLXpck9T5Ef/pDzsW1fiobYBQnFImAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 16:01:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "72pdu2giyj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ZmAq768cCG0OLXpck9T5Ef/pDzsW1fiobYBQnFImAo="
+        },
+        {
+          "Name": "label",
+          "Value": "css/clubCreate.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/clubCreate.72pdu2giyj.css.gz",
+      "AssetFile": "css/clubCreate.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gzFljsMuM9xq+p5B+8m7Be9bcQkStAGeSQ03ggJhYqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 16:01:38 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "72pdu2giyj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gzFljsMuM9xq+p5B+8m7Be9bcQkStAGeSQ03ggJhYqI="
+        },
+        {
+          "Name": "label",
+          "Value": "css/clubCreate.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "css/clubCreate.css",
+      "AssetFile": "css/clubCreate.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006250000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gzFljsMuM9xq+p5B+8m7Be9bcQkStAGeSQ03ggJhYqI=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4ZmAq768cCG0OLXpck9T5Ef/pDzsW1fiobYBQnFImAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 16:01:38 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ZmAq768cCG0OLXpck9T5Ef/pDzsW1fiobYBQnFImAo="
+        }
+      ]
+    },
+    {
+      "Route": "css/clubCreate.css",
+      "AssetFile": "css/clubCreate.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ZmAq768cCG0OLXpck9T5Ef/pDzsW1fiobYBQnFImAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 16:01:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ZmAq768cCG0OLXpck9T5Ef/pDzsW1fiobYBQnFImAo="
+        }
+      ]
+    },
+    {
+      "Route": "css/clubCreate.css.gz",
+      "AssetFile": "css/clubCreate.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gzFljsMuM9xq+p5B+8m7Be9bcQkStAGeSQ03ggJhYqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 16:01:38 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gzFljsMuM9xq+p5B+8m7Be9bcQkStAGeSQ03ggJhYqI="
+        }
+      ]
+    },
+    {
       "Route": "css/clubDetails.css",
       "AssetFile": "css/clubDetails.css.gz",
       "Selectors": [

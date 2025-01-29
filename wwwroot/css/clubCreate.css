@@ -1,0 +1,22 @@
+.create-container {}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group input[type=text],
+input[type="submit"] {
+    max-width: 200px;
+}
+
+.form-group select {
+    max-width: 200px;
+}
