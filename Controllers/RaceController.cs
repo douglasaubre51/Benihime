@@ -26,5 +26,25 @@ namespace Benihime.Controllers
             Race race = await _repository.GetByIdAsync(Id);
             return View(race);
         }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Race race)
+        {
+            if (ModelState.IsValid)
+            {
+                _repository.Add(race);
+                return RedirectToAction("Index");
+            }
+
+            else
+            {
+                return View(race);
+            }
+        }
     }
 }

@@ -9,8 +9,10 @@
 <div class="club-container">
 
     <h1 class="heading-h1">Club</h1>
+    <a href="/Club/Create">Create new club</a>
 
     <div class="cards-container">
+
         @foreach (var item in Model)
         {
             <a type="button" asp-controller="Club" asp-action="Details" asp-route-id="@item.Id">
