@@ -224,3 +224,5 @@ E:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Debug\net9.0\
 E:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Debug\net9.0\compressed\pbteotapct-y9tqtmz6fx.gz
 E:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Debug\net9.0\compressed\udfr4ivl8h-wndbubzf20.gz
 E:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\obj\Debug\net9.0\compressed\ya49gd344x-g9lal3hco4.gz
+E:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\bin\Debug\net9.0\CloudinaryDotNet.dll
+E:\WORKSPACE\Projects\dotnet in VS Code\Benihime Repo\Benihime\bin\Debug\net9.0\Newtonsoft.Json.dll

@@ -1,20 +1,22 @@
+using Benihime.ViewModels;
 using Benihime.Data;
 using Benihime.Interfaces;
 using Benihime.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Components.Web;
 
 namespace Benihime.Controllers
 {
     public class ClubController : Controller
     {
         // GET: ClubController
-        private readonly ApplicationDBContext _context;
         private readonly IClubRepository _repository;
-        public ClubController(ApplicationDBContext context, IClubRepository repository)
+        private readonly IPhotoService _photoService;
+        public ClubController(IClubRepository repository, IPhotoService photoService)
         {
-            _context = context;
             _repository = repository;
+            _photoService = photoService;
         }
         public async Task<ActionResult> Index()
         {
@@ -32,15 +34,35 @@ namespace Benihime.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(Club club)
+        public async Task<ActionResult> Create(ClubViewModel clubVM)
         {
             if (ModelState.IsValid)
             {
+                var result = await _photoService.AddPhotoAsync(clubVM.Image);
+
+                var club = new Club
+                {
+                    Title = clubVM.Title,
+                    Description = clubVM.Description,
+                    Image = result.Url.ToString(),
+                    Address = new Address
+                    {
+                        State = clubVM.address.State,
+                        City = clubVM.address.City,
+                        Street = clubVM.address.Street,
+                    }
+                };
+
                 _repository.Add(club);
+
                 return RedirectToAction("Index");
             }
+            else
+            {
+                ModelState.AddModelError("", "photo upload failed!");
+            }
 
-            return View(club);
+            return View(clubVM);
         }
     }
 }

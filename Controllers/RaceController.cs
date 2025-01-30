@@ -8,11 +8,9 @@ namespace Benihime.Controllers
 {
     public class RaceController : Controller
     {
-        private readonly ApplicationDBContext _context;
         private readonly IRaceRepository _repository;
-        public RaceController(ApplicationDBContext context, IRaceRepository repository)
+        public RaceController(IRaceRepository repository)
         {
-            _context = context;
             _repository = repository;
         }
         // GET: RaceController

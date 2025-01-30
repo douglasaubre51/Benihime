@@ -1,7 +1,8 @@
 using Benihime.Data;
 using Benihime.Interfaces;
-using Benihime.Models;
 using Benihime.Repository;
+using Benihime.Helpers;
+using Benihime.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,10 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 
 builder.Services.AddScoped<IClubRepository, ClubRepository>();
 builder.Services.AddScoped<IRaceRepository, RaceRepository>();
+
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
+
+builder.Services.AddScoped<IPhotoService, PhotoService>();
 
 var app = builder.Build();
 

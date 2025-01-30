@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6ia8av29dn</Fingerprint>
-      <Integrity>Lm2HWI+Pqas3raJZR7ssKDLF06SM4qItv736FRLGQi4=</Integrity>
+      <Fingerprint>g9lal3hco4</Fingerprint>
+      <Integrity>3EQLI4rO/x7hB/15nkIGPxMZR9aqWsD2jJ9fyMcGII8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\club.css'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>72pdu2giyj</Fingerprint>
-      <Integrity>4ZmAq768cCG0OLXpck9T5Ef/pDzsW1fiobYBQnFImAo=</Integrity>
+      <Fingerprint>wndbubzf20</Fingerprint>
+      <Integrity>FAzrMk2/V1qYaGKisWZAw0U/HDRh0ZuPSk9Y2uadhNw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\clubCreate.css'))</OriginalItemSpec>

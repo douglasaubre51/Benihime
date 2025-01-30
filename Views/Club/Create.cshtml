@@ -1,5 +1,5 @@
 ﻿@using Benihime.Data.Enum
-@model Club
+@model Benihime.ViewModels.ClubViewModel
 
 @{
     ViewBag.Title = "Create";
@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="~/css/clubCreate.css" />
 
 <div class="create-container">
-    <form class="form" method=post asp-action="Create" asp-controller="Club">
+    <form class="form" method=post asp-action="Create" asp-controller="Club" enctype="multipart/form-data">
         <div class="form-group">
             <label asp-for="Title">Title</label>
             <input asp-for="Title" />
@@ -23,34 +23,34 @@
 
         <div class="form-group">
             <label asp-for="Image">Image</label>
-            <input asp-for="Image" />
+            <input type="file" asp-for="Image" />
             <span asp-validation-for="Image"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="ClubCategory">Club Category</label>
-            <select asp-for="ClubCategory" asp-items="@Html.GetEnumSelectList<ClubCategory>()">
+            <label asp-for="clubCategory">Club Category</label>
+            <select asp-for="clubCategory" asp-items="@Html.GetEnumSelectList<ClubCategory>()">
                 <option>---select---</option>
             </select>
-            <span asp-validation-for="ClubCategory"></span>
+            <span asp-validation-for="clubCategory"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="Address.Street">Street</label>
-            <input asp-for="Address.Street" />
-            <span asp-validation-for="Address.Street"></span>
+            <label asp-for="address.Street">Street</label>
+            <input asp-for="address.Street" />
+            <span asp-validation-for="address.Street"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="Address.City">City</label>
-            <input asp-for="Address.City" />
-            <span asp-validation-for="Address.City"></span>
+            <label asp-for="address.City">City</label>
+            <input asp-for="address.City" />
+            <span asp-validation-for="address.City"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="Address.State">State</label>
-            <input asp-for="Address.State" />
-            <span asp-validation-for="Address.State"></span>
+            <label asp-for="address.State">State</label>
+            <input asp-for="address.State" />
+            <span asp-validation-for="address.State"></span>
         </div>
 
         <div class="form-group">
