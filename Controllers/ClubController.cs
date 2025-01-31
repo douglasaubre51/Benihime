@@ -34,7 +34,7 @@ namespace Benihime.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(ClubViewModel clubVM)
+        public async Task<ActionResult> Create(CreateClubViewModel clubVM)
         {
             if (ModelState.IsValid)
             {
@@ -61,6 +61,27 @@ namespace Benihime.Controllers
             {
                 ModelState.AddModelError("", "photo upload failed!");
             }
+
+            return View(clubVM);
+        }
+
+        public async Task<ActionResult> Edit(int id)
+        {
+            var club = await _repository.GetByIdAsync(id);
+
+            if (club == null)
+                return View("Error");
+
+            var clubVM = new EditClubViewModel
+            {
+                Id = club.Id,
+                Title = club.Title,
+                Description = club.Description,
+                ClubCategory = club.ClubCategory,
+                AddressId = club.AddressId,
+                Address = club.Address,
+                URL = club.Image
+            };
 
             return View(clubVM);
         }

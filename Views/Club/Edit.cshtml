@@ -1,0 +1,33 @@
+﻿@model Benihime.ViewModels.EditClubViewModel
+
+@{
+    ViewBag.Title = "Edit Club";
+}
+
+<form asp-action="Edit" asp-controller="Club" method="post" enctype="multipart/form-data">
+    <label asp-for="@Model.Title"></label>
+    <input asp-for="@Model.Title" />
+    <span asp-validation-for="@Model.Title"></span>
+
+    <label asp-for="@Model.Description"></label>
+    <input asp-for="@Model.Description" />
+    <span asp-validation-for="@Model.Description"></span>
+
+    <label asp-for="@Model.Image"></label>
+    <image href="@Model.Image" />
+    <span asp-validation-for="@Model.Image"></span>
+
+    <label asp-for="@Model.Address.State"></label>
+    <input asp-for="@Model.Address.State" />
+    <span asp-validation-for="@Model.Address.State"></span>
+
+    <label asp-for="@Model.Address.City"></label>
+    <input asp-for="@Model.Address.City" />
+    <span asp-validation-for="@Model.Address.City"></span>
+
+    <label asp-for="@Model.Address.Street"></label>
+    <input asp-for="@Model.Address.Street" />
+    <span asp-validation-for="@Model.Address.Street"></span>
+
+    <label asp-for="@Model.ClubCategory"></label>
+</form>

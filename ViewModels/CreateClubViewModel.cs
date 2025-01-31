@@ -4,7 +4,7 @@ using Benihime.Models;
 
 namespace Benihime.ViewModels;
 
-public class ClubViewModel
+public class CreateClubViewModel
 {
     public int Id { get; set; }
     public string Title { get; set; }
