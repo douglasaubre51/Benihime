@@ -15,4 +15,4 @@ from Clubs;
 select *
 from Races;
 
-delete from Clubs where Id=9;
+delete from Clubs where Id=7;
