@@ -15,6 +15,4 @@ from Clubs;
 select *
 from Races;
 
-insert into Races
-
-
+delete from Clubs where Id=9;
